@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Astromix Products - Explore our range of products, from dashboards to settings and more.">
+    <meta name="keywords" content="Astromix, products, dashboard, lab, settings, explore, features">
+    <meta name="robots" content="index, follow">
+
+    <!-- Language -->
+    <meta name="language" content="en">
+
+    <!-- Favicon -->
+    <link rel="icon" href="image/favicon.png" type="image/png">
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    
+    <!-- Title -->
+    <title>Astromix Products</title>
+  </head>
+
+  <body class="page">
+    <aside class="page__sider sider">
+      <div class="sider__top">
+        <div class="sider__logo">
+          <a 
+            href="#" 
+            class="sider__logo-link" 
+            aria-label="Astromix Home"
+          >
+            <img 
+              class="sider__logo-icon" 
+              loading="lazy" 
+              width="172" 
+              height="44" 
+              src="image/Logo.svg"
+              alt="Astromix зroducts icon"
+            >
+          </a>
+        </div>
+
+        <button 
+          class="sider__mobile" 
+          aria-label="Open menu"
+        >
+          <span class="mobile-icon"></span>
+        </button>
+      </div>
+
+      <div class="sider__main">
+        <nav 
+          class="sider__nav nav" 
+          aria-label="Main navigation"
+        >
+          <ul class="sider__list">
+            <li class="sider__item">
+              <a 
+                href="#dashboard"   
+                class="sider__link" 
+                aria-label="Dashboard"
+              >
+                Dashboard
+              </a>
+            </li>
+            
+            <li class="sider__item">
+              <a 
+                href="#lab" 
+                class="sider__link" 
+                aria-label="Lab"
+              >
+                Lab
+              </a>
+            </li>
+            
+            <li class="sider__item sider__item--active" id="products">
+              <a 
+                href="#products" 
+                class="sider__link" 
+                aria-label="Products"
+              >
+                Products
+
+                <span class="icon-product__icon-obj5"></span>
+              </a>
+            </li>
+
+            <li class="sider__item">
+              <a 
+                href="#messages" 
+                class="sider__link" 
+                aria-label="Messages"
+              >
+                Messages
+              </a>
+            </li>
+
+            <li class="sider__item">
+              <a 
+                href="#settings" 
+                class="sider__link" 
+                aria-label="Settings"
+              >
+                Settings
+              </a>
+            </li>
+
+            <li class="sider__item">
+              <a 
+                href="#profile" 
+                class="sider__link" 
+                aria-label="Profile"
+              >
+                Profile                
+              </a>
+            </li>
+
+            <li class="sider__item">
+              <a 
+                href="#help" 
+                class="sider__link" 
+                aria-label="Help"
+              >
+                Help
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <footer class="sider__footer footer">
+          <p class="footer__text">
+            Astromix © 2018 – 2020
+          </p>
+        </footer>
+      </div>
+    </aside>
+
+    <main class="page__main main">
+      <section 
+        class="products__section section" 
+        aria-labelledby="products-title"
+      >
+        <div class="products__sider">
+          <h2 
+            id="products-title" 
+            class="products__title"
+          >
+            Products
+          </h2>
+
+          <div 
+            class="products__view-options" 
+            role="group" 
+            aria-label="View options"
+          >
+            <button 
+              id="gridView" 
+              class="products__view-option products__view-option--active" 
+              aria-label="Grid view"
+            >
+              <img 
+                class="products__view-option-icon" 
+                loading="lazy" 
+                width="16" 
+                height="16"                
+                src="image/product-icon-obj1.svg" 
+                alt="Grid view icon"
+              >
+            </button>
+
+            <button 
+              id="listView" 
+              class="products__view-option" 
+              aria-label="List view"
+            >
+              <img 
+                class="products__view-option-icon" 
+                loading="lazy" 
+                width="16" 
+                height="16"
+                src="image/product-icon-obj2.svg" 
+                alt="List view icon"
+              >
+            </button>
+
+            <button 
+              id="compactView" 
+              class="products__view-option" 
+              aria-label="Compact view"
+            >
+              <img 
+                class="products__view-option-icon" 
+                loading="lazy" 
+                width="16"
+                height="16"
+                src="image/product-icon-obj3.svg" 
+                alt="Compact view icon"
+              >
+            </button>
+
+            <button 
+              id="largeGridView" 
+              class="products__view-option" 
+              aria-label="Large grid view"
+            >
+              <img 
+                class="products__view-option-icon" 
+                loading="lazy" 
+                width="14" 
+                height="16"
+                src="image/product-icon-obj4.svg" 
+                alt="Large grid view icon"
+              >
+            </button>
+          </div>
+        </div>
+
+        <div class="products__box">
+          <article 
+            class="products__item product" 
+            aria-labelledby="product1-name"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="60" 
+                height="60" 
+                src="image/product__icon-obj1.svg"
+                alt="First product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                id="product1-name" 
+                class="product__name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product products__item--active" 
+            aria-labelledby="product2-name"
+            id="secondProduct"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="57" 
+                height="55" 
+                src="image/product__icon-obj2.svg"
+                alt="Second product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product2-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product3-name"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="61" 
+                height="60" 
+                src="image/product__icon-obj3.svg"
+                alt="Third product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product3-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product4-name"
+          >
+            <div class="product__icon">
+              <img
+                class="product__icon-img" 
+                loading="lazy" 
+                width="63" 
+                height="56" 
+                src="image/product__icon-obj4.svg"
+                alt="Fourth product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product4-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product with few lines of text
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product5-name"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy"
+                width="65" 
+                height="62" 
+                src="image/product__icon-obj5.svg"
+                alt="Fifth product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name"
+                id="product5-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product6-name"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="64" 
+                height="62" 
+                src="image/product__icon-obj6.svg"
+                alt="Sixth product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product2-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product7-name"
+            >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="64" 
+                height="60" 
+                src="image/product__icon-obj7.svg"
+                alt="Seventh product name icon"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product7-name"
+              >
+                Product Name few lines
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+
+          <article 
+            class="products__item product" 
+            aria-labelledby="product8-name"
+          >
+            <div class="product__icon">
+              <img 
+                class="product__icon-img" 
+                loading="lazy" 
+                width="58" 
+                height="62" 
+                src="image/product__icon-obj8.svg"
+                alt="Eigth product Name"
+              >
+            </div>
+
+            <div class="product__content">
+              <h3 
+                class="product__name" 
+                id="product8-name"
+              >
+                Product Name
+              </h3>
+
+              <p class="product__description">
+                Text about product
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="products__footer">
+          <p class="products__footer-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
